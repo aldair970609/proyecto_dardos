@@ -1,13 +1,13 @@
 
 PROGRAM _INIT
 	(* Insert code here *)
-	puntaje_intermediario[7] := 70;
-	puntaje_intermediario[6] := 60;
-	puntaje_intermediario[5] := 50;
+	puntaje_intermediario[7] := 10;
+	puntaje_intermediario[6] := 20;
+	puntaje_intermediario[5] := 30;
 	puntaje_intermediario[4] := 40;
-	puntaje_intermediario[3] := 30;
-	puntaje_intermediario[2] := 20;
-	puntaje_intermediario[1] := 10;
+	puntaje_intermediario[3] := 50;
+	puntaje_intermediario[2] := 60;
+	puntaje_intermediario[1] := 70;
 END_PROGRAM
 
 PROGRAM _CYCLIC
