@@ -1,0 +1,3 @@
+VAR
+	resetear : BOOL;
+END_VAR

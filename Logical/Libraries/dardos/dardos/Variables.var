@@ -1,0 +1,21 @@
+VAR
+	listo : UINT;
+	relleno : UINT;
+	perimetro_color : UINT;
+	SPD : STRING[80] := 'Visu_d';
+	status_attach : UINT;
+	variable_1 : UINT;
+	variable_2 : UINT;
+	variable_3 : UINT;
+	variable_4 : UINT;
+	variable_5 : UINT;
+	variable_6 : UINT;
+	variable_7 : UINT;
+	xrect : UINT;
+	yrec : UINT;
+	widthrect : UINT;
+	heithRect : UINT;
+	colorRec : USINT;
+	fillRec : USINT;
+	fill : ARRAY[1..7] OF UINT;
+END_VAR

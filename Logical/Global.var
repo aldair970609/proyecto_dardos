@@ -1,0 +1,34 @@
+VAR
+	radio : UINT;
+	y_posicion : UDINT;
+	x_posicion : UDINT;
+	current_page : USINT;
+	VC_HANDLE : UDINT;
+	touch_status : UDINT;
+	touch : TouchAction;
+	ready : BOOL;
+	ancho_alto : ARRAY[1..7] OF UINT;
+	circulo : USINT;
+	touch_real : REAL;
+	touch_active : BOOL;
+	diametro_touch : REAL;
+	estado : gmain_enum;
+END_VAR
+VAR CONSTANT
+	y : UINT := 230;
+	x : UINT := 230;
+END_VAR
+VAR
+	x_real : REAL;
+	y_real : REAL;
+	x_posicion_real : REAL;
+	y_posicion_real : REAL;
+	puntaje_acumulado : UINT;
+	update_puntaje : BOOL;
+	updateRadio : BOOL;
+	valor_score : UINT;
+	cantidad_tiros : USINT;
+	puntaje_intermediario : ARRAY[1..7] OF UINT;
+	puntaje : UINT;
+	segment_score : UINT;
+END_VAR
